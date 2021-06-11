@@ -1,0 +1,39 @@
+.header{
+    display:flex;
+    background-color: gray;
+    color:cyan;
+    flex-wrap : wrap
+}
+
+.image{
+    display: grid;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    background-color: greenyellow;
+    position:relative
+}
+
+image p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+
+
+.footer{
+    background-color: red;
+    justify-content: flex-end;
+}
+
+a:link{
+    color:white
+}
+
+a:visited{
+    color:blue
+}
